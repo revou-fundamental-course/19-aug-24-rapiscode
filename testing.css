@@ -1,0 +1,298 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-color: #a1aeb1;
+}
+.box-atas{
+    background-color: #d30000;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)  ;
+    border-radius: 30px;
+    margin: 5px 10px 0px 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding-left: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+img:hover{
+    padding-left: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+#hey{
+    font-family: lucida bright;
+    color: #a1aeb1;
+    font-size: 40px;
+}
+
+#bro{
+    font-family: lucida bright;
+    color: black;
+    font-size: 40px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row; 
+}
+
+#Home{
+    color: black;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#Home:hover {
+    color: black;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: -5px 8px 10px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+}
+
+#My_Profile{
+    color: black;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    text-decoration: none;
+}
+
+#My_Profile:hover {
+    color: black;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+}
+
+#Portofolio{
+    color: black;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    text-decoration: none;
+}
+
+#Portofolio:hover {
+    color: black;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+}
+
+#Message_Us{
+    color:black;
+    margin: 8px 50px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+} 
+
+#Message_Us:hover {
+    color:black;
+    margin: 8px 50px 8px 0px;
+    border: 1px solid black;
+    padding: 5px 20px 2px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+} 
+
+.text{
+    margin: 50px auto auto 50px;
+}
+
+.Story{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.Story > textarea {
+    width: 1000px;
+    height: 300px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.button {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    margin-left: 50px;
+    height: 20px;
+    width: 15px;
+}
+
+.main_b{
+    border: 1px solid black;
+
+}
+
+.head_2{
+    margin: 20px auto auto 50px
+}
+
+.middle{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile{
+    display: inline-block;
+    text-align: center;
+}
+
+.img-1{
+    background-image: url(https://media.licdn.com/dms/image/D5603AQFCiTUiOydY7A/profile-displayphoto-shrink_200_200/0/1692776437164?e=2147483647&v=beta&t=r7gDwgN1El05KD0pWxJ0QVIhuL5oQYuEACPgHnQk64s);
+    height: 170px;
+    width: 170px;
+    background-size: cover ;
+    border-radius: 100%;
+    background-position: center;
+}
+
+.img-2{
+    background-image: url(https://edurank.org/assets/img/uni-logos/telkom-university-logo.png);
+    height: 170px;
+    width: 170px;
+    background-size: contain;
+    border-radius: 100%;
+    background-position: center;
+}
+
+.img-3{
+    background-image: url(https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png);
+    height: 170px;
+    width: 170px;
+    background-size: cover ;
+    border-radius: 100%;
+    background-position: center;
+}
+
+.input{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px auto auto 50px;
+    
+}
+
+.response {
+    margin-left: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    
+}
+.line-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#Name{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 486px;
+    padding:5px
+}
+#TTL{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 486px;
+    padding: 5px;
+}
+#Box-2{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 486px;
+    height: 150px;
+    padding:10px;
+    vertical-align: top;
+    font-family: Arial;
+}
+
+footer{
+    border-bottom: 1px solid black;
+}
+
+#submit{
+    width: 688px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    font-size: 12pt;
+}
+
+#submit:hover{
+    width: 688px;
+    height: 30px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 12pt;
+}
+
+.boxOutput{
+    border: 2px solid black;
+    width: 400px;
+    margin: 20px 50px 30px auto;
+}
+.contOutput{
+    padding: 5px 5px 5px 5px;
+}
+footer{
+    border: 1px solid black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}

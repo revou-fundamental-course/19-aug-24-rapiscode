@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="testing.css">
+    </head>
+    <body>
+        <header>
+
+            <nav class="box-atas">
+                <div class="logo">
+                    <img src="https://png.pngtree.com/png-vector/20240202/ourmid/pngtree-funny-face-object-png-image_11589610.png"
+                    class="loggo">
+                    <span id="hey"><b>hey</b></span>
+                    <span id="bro">Bro!</span>
+                </div>
+                <div class="navBar">
+                    <a type="button" id="Home">Home</a>
+                    <a href="#story" id="My_Profile">Our Profile</a>
+                    <a href="#Profile" id="Portofolio">school</a>
+                    <a href="" id="Message_Us">Message Us</a>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <div class="text">
+                <h1 id="greeting">Hi</h1>
+                <p><b>Ini Adalah Website Latihan Pertama</b></p>
+            </div>
+            <div class="Story" id="story">
+                <textarea type="text" 
+                placeholder="Halo!, ini penegalaman pertama saya dalam membuat website jadi saya masih bingung dengan konsep saya sebenernya,jadi ya begini hasilnya, ajarin dong puhhh!!!!"></textarea>
+            </div>
+            <section class="main_b">
+                <div>
+                    <h2 class="head_2">Our Facilitation</h2>
+                </div>
+                <section class="middle" id="Profile">
+                    <div class="profile">
+                        <div class="img-1"></div>
+                        <h2>Naufal rafi</h2>
+                    </div>
+                    <div class="profile">
+                        <div class="img-2"></div>
+                        <h2>Telkom university</h2>
+                    </div>
+                    <div class="profile">
+                        <div class="img-3"></div>
+                        <h2>Revou</h2>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <h2 class="head_2">Message Us</h2>
+            </div>
+            <section class="footer">
+
+                <div class="input">
+
+                    <div class="line-1">
+                        <label id="Nama">Nama</label><span>:</span>
+                        <input class="response" id="Name" type="text" placeholder="Masukkan Nama Anda">
+                    </div>
+                    <br>
+                    <div class="line-2">   
+                        <label id="Date">Tanggal Lahir</label><span>:</span>
+                        <input class="response" id="TTL"type="date">
+                    </div>
+                    <br>
+                    <div class="line-3">
+                        <label>Jenis Kelamin</label><span>:</span>
+                        <div class="response">
+                            <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-Laki" required>
+                            <label for="laki-laki">Laki-Laki</label>
+                            <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan" required>
+                            <label for="perempuan">Perempuan</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="line-4">
+                        <label id="Pesan">Pesan</label><span style="vertical-align: top">:</span>
+                        <textarea class="response" id="Box-2" type="text" placeholder="Masukkan Pesan Anda"></textarea>
+                    </div>
+                    <br>
+                    <button id="submit" type="submit" onclick="submitForm()">Submit</button>
+                    <br>
+                </div>
+
+                <div class="boxOutput">
+                    <div class="contOutput">
+                        <p><strong>Current Time :</strong><span id="currentTime"></span></p>
+                        <p><strong>Nama :</strong><span id="outputName"></span></p>
+                        <p><strong>Tanggal Lahir : </strong><span id="outputTanggalLahir"></span></p>
+                        <p><strong>Jenis Kelamin :</strong><span id="outputJenisKelamin"></span></p>
+                        <p><Strong>Pesan :</Strong><span id="outputPesan"></span></p>
+                    </div>
+                </div>
+                
+            </section>
+        </footer>
+
+        <div class="sign">
+            <p>Created By Rafi</p>
+        </div>
+        <script src="testing.js"> </script>
+    </body>
+</html>
